@@ -22,13 +22,11 @@ def txt_xls(filename, xlsname):
     except:
         raise
 
+#路徑照個人電腦更動
 if __name__ == "__main__":
-    filename = "C:\\Users\\a5192\\Desktop\\c\\project\\order_overview.txt"   
-    xlsname = "C:\\Users\\a5192\\Desktop\\c\\project\\order_overview.xls"     
+    filename = "C:\\Users\\Tony\\Desktop\\C_practice\\final\\final_project\\product_list.txt"
+    xlsname = "C:\\Users\\Tony\\Desktop\\C_practice\\final\\final_project\\product_list.xls"
     txt_xls(filename, xlsname)
-    filename = "C:\\Users\\a5192\\Desktop\\c\\project\\product_list.txt"
-    xlsname = "C:\\Users\\a5192\\Desktop\\c\\project\\product_list.xls"
-    txt_xls(filename, xlsname)
-    filename = "C:\\Users\\a5192\\Desktop\\c\\project\\buyer_account_list.txt"
-    xlsname = "C:\\Users\\a5192\\Desktop\\c\\project\\buyer_account_list.xls"
+    filename = "C:\\Users\\Tony\\Desktop\\C_practice\\final\\final_project\\buyer_account_list.txt"
+    xlsname = "C:\\Users\\Tony\\Desktop\\C_practice\\final\\final_project\\buyer_account_list.xls"
     txt_xls(filename, xlsname)
